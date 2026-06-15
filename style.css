@@ -51,15 +51,4 @@ a:hover {
     margin-bottom: 25px;
     border-radius: 12px;
 }
-.gallery img[src="photos/IMG_1904.jpeg"],
-.gallery img[src="photos/IMG_1910.jpeg"] {
-    width: 50%;
-    margin-left: auto;
-    margin-right: auto;
-}
-}
-.gallery img[src="photos/IMG_1907.jpeg"] {
-    width: 20%;
-    margin-left: auto;
-    margin-right: auto;
-}
+
