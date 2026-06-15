@@ -52,3 +52,10 @@ a:hover {
     border-radius: 12px;
 }
 
+.wedding-video {
+    width: 100%;
+    max-width: 700px;
+    display: block;
+    margin: 30px auto;
+    border-radius: 12px;
+}
