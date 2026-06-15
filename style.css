@@ -1,9 +1,32 @@
+@font-face {
+    font-family: 'Cherolina';
+    src: url('fonts/Cherolina.ttf') format('truetype');
+}
+
 body {
-    background-color: #f5f5f5;
-    color: #333333;
+    background-color: #E4DED6;
+    color: #FAFAFA;
     font-family: Arial, sans-serif;
+
+    max-width: 1000px;
+    margin: auto;
+    padding: 40px;
 }
 
 h1 {
-    color: #003366;
+    font-family: 'Cherolina', cursive;
+    font-size: 5rem;
+    font-weight: normal;
+    text-align: center;
+
+    color: #FAFAFA;
+
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+p {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #FAFAFA;
 }
