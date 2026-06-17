@@ -1,61 +1,73 @@
 @font-face {
     font-family: 'Cherolina';
-    src: url('fonts/Cherolina.ttf') format('truetype');
+    src: url('fonts/Cherolina.ttf');
 }
 
 body {
-    background-color: #EBEBEI;
-    color: #FAFAFA;
+    margin: 0;
+    background-color: #E4DED6;
+    color: #333333;
     font-family: Arial, sans-serif;
-
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 40px;
 }
 
-h1 {
-    font-family: 'Cherolina', cursive;
-    font-size: 5rem;
-    font-weight: normal;
+/* Navigation */
+
+nav {
+    background-color: white;
+    padding: 25px;
     text-align: center;
-    color: #030201;
-
-    margin-top: 50px;
-    margin-bottom: 40px;
 }
 
-p {
-    text-align: center;
-    font-size: 1.2rem;
-    color: #030201;
-}
-
-a {
-    color: #030201;
+nav a {
+    color: #333333;
     text-decoration: none;
-    font-size: 1.2rem;
+    margin: 0 15px;
+    font-size: 16px;
+    font-weight: 500;
 }
 
-a:hover {
+nav a:hover {
     text-decoration: underline;
 }
 
-.gallery {
-    max-width: 700px;
-    margin: 0 auto;
+/* Hero Section */
+
+.hero {
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
-.gallery img {
-    width: 100%;
-    display: block;
-    margin-bottom: 25px;
-    border-radius: 12px;
+.hero-content {
+    max-width: 800px;
 }
 
-.wedding-video {
-    width: 100%;
-    max-width: 700px;
-    display: block;
-    margin: 30px auto;
-    border-radius: 
+.hero-content h1 {
+    font-family: 'Cherolina', cursive;
+    font-size: 110px;
+    font-weight: normal;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.hero-content p {
+    font-size: 22px;
+    margin-bottom: 30px;
+}
+
+.button {
+    background-color: white;
+    color: #333333;
+    text-decoration: none;
+    padding: 14px 28px;
+    border-radius: 30px;
+    display: inline-block;
+    transition: 0.3s;
+}
+
+.button:hover {
+    background-color: #333333;
+    color: white;
 }
